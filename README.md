@@ -1,4 +1,4 @@
-# AnimationDemo
+#  Android动画之进度条
    <div class="blog-body" id="blogBody">
                                     <val data-name="blog_content_type" data-value="richtext"></val>
                     <div class='BlogContent'>
@@ -104,10 +104,5 @@
 <p>&nbsp;</p> 
 <p>效果图：</p> 
 <p><img alt="" height="217" src="http://images2015.cnblogs.com/blog/1041439/201611/1041439-20161107112237311-1821325101.gif" width="346"></p> 
-<p>&nbsp;</p> 
-<p>&nbsp;</p> 
-<p>&nbsp;</p> 
-<p>源码下载： &nbsp;<a href="http://download.csdn.net/detail/dickyqie/9673734" target="_blank" rel="nofollow">http://download.csdn.net/detail/dickyqie/9673734</a></p> 
-<p>&nbsp;</p>
-                    </div>
-                            </div>
+
+                  
