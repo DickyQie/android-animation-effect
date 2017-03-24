@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ripple="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.zq.waveeffects.MainActivity">
+
+    <!--其他属性自行测试-->
+
+    <com.zq.waveeffects.RippleView
+        android:id="@+id/more"
+        android:layout_width="?android:actionBarSize"
+        android:layout_height="?android:actionBarSize"
+        android:layout_margin="5dp"
+        ripple:rv_centered="true">
+
+        <ImageView
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_gravity="center"
+            android:background="@android:color/holo_blue_dark"
+            android:padding="10dp"
+            android:src="@android:drawable/ic_menu_edit" />
+    </com.zq.waveeffects.RippleView>
+
+    <com.zq.waveeffects.RippleView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="65dp"
+        ripple:rv_type="rectangle"
+        ripple:rv_zoom="true">
+        <!-- ripple:rv_type="doubleRipple"  控制类型
+             ripple:rv_zoom="true"  是否抖动
+        -->
+        <TextView
+            android:id="@+id/my_comment_submit"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/border_red_roval_sign"
+            android:gravity="center"
+            android:text="效果1"
+            android:textColor="@android:color/white" />
+    </com.zq.waveeffects.RippleView>
+
+    <com.zq.waveeffects.RippleView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="15dp"
+        ripple:rv_type="simpleRipple"
+        ripple:rv_zoom="false">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/border_red_roval_sign"
+            android:gravity="center"
+            android:text="效果2"
+            android:textColor="@android:color/white" />
+    </com.zq.waveeffects.RippleView>
+
+    <com.zq.waveeffects.RippleView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="15dp"
+        ripple:rv_type="doubleRipple"
+        ripple:rv_zoom="false">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/border_red_roval_sign"
+            android:gravity="center"
+            android:text="效果3"
+            android:textColor="@android:color/white" />
+    </com.zq.waveeffects.RippleView>
+</LinearLayout>
