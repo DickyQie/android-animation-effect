@@ -5,89 +5,89 @@
 <p>上图可看出 点击有抖动效果和不抖动效果。</p> 
 <p>布局代码：</p> 
 <pre><code class="language-html">&lt;?xml version="1.0" encoding="utf-8"?&gt;
-&lt;LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:ripple="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.zq.waveeffects.MainActivity"&gt;
+    tools:context="com.zq.waveeffects.MainActivity>
 
-    &lt;!--其他属性自行测试--&gt;
+   <!--其他属性自行测试-->
 
-    &lt;com.zq.waveeffects.RippleView
+   <com.zq.waveeffects.RippleView
         android:id="@+id/more"
         android:layout_width="?android:actionBarSize"
         android:layout_height="?android:actionBarSize"
         android:layout_margin="5dp"
-        ripple:rv_centered="true"&gt;
+        ripple:rv_centered="true">
 
-        &lt;ImageView
+        <ImageView
             android:layout_width="88dp"
             android:layout_height="88dp"
             android:layout_gravity="center"
             android:background="@android:color/holo_blue_dark"
             android:padding="10dp"
-            android:src="@android:drawable/ic_menu_edit" /&gt;
-    &lt;/com.zq.waveeffects.RippleView&gt;
+            android:src="@android:drawable/ic_menu_edit" />
+    </com.zq.waveeffects.RippleView>
 
-    &lt;com.zq.waveeffects.RippleView
+    <com.zq.waveeffects.RippleView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
         android:layout_marginTop="65dp"
         ripple:rv_type="rectangle"
-        ripple:rv_zoom="true"&gt;
-        &lt;!-- ripple:rv_type="doubleRipple"  控制类型
+        ripple:rv_zoom="true">
+        <!-- ripple:rv_type="doubleRipple"  控制类型
              ripple:rv_zoom="true"  是否抖动
-        --&gt;
-        &lt;TextView
+        -->
+        <TextView
             android:id="@+id/my_comment_submit"
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:background="@drawable/border_red_roval_sign"
             android:gravity="center"
             android:text="效果1"
-            android:textColor="@android:color/white" /&gt;
-    &lt;/com.zq.waveeffects.RippleView&gt;
+            android:textColor="@android:color/white" />
+    </com.zq.waveeffects.RippleView>
 
-    &lt;com.zq.waveeffects.RippleView
+    <com.zq.waveeffects.RippleView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
         android:layout_marginTop="15dp"
         ripple:rv_type="simpleRipple"
-        ripple:rv_zoom="false"&gt;
+        ripple:rv_zoom="false">
 
-        &lt;TextView
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:background="@drawable/border_red_roval_sign"
             android:gravity="center"
             android:text="效果2"
-            android:textColor="@android:color/white" /&gt;
-    &lt;/com.zq.waveeffects.RippleView&gt;
+            android:textColor="@android:color/white" />
+    </com.zq.waveeffects.RippleView>
 
-    &lt;com.zq.waveeffects.RippleView
+    <com.zq.waveeffects.RippleView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
         android:layout_marginTop="15dp"
         ripple:rv_type="doubleRipple"
-        ripple:rv_zoom="false"&gt;
+        ripple:rv_zoom="false">
 
-        &lt;TextView
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:background="@drawable/border_red_roval_sign"
             android:gravity="center"
             android:text="效果3"
-            android:textColor="@android:color/white" /&gt;
-    &lt;/com.zq.waveeffects.RippleView&gt;
-&lt;/LinearLayout&gt;
+            android:textColor="@android:color/white" />
+    </com.zq.waveeffects.RippleView>
+</LinearLayout>
 </code></pre> 
-<p>自定义的RippleView代码比较多，直接下载源码即可；</p> 
+
