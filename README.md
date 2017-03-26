@@ -1,5 +1,5 @@
 # Android之水波纹点击效果(RippleView) 
-  <p>Android5.0后各种炫的效果纷纷出来，写这篇博客主要是讲的是按钮点击效果带有的水波纹（波浪式）。</p> 
+                     <p>Android5.0后各种炫的效果纷纷出来，写这篇博客主要是讲的是按钮点击效果带有的水波纹（波浪式）。</p> 
 <p>当然我写的这个是自定义来实现的，在低版本（5.0一下）也可以实现点击效果。看看效果图：</p> 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img alt="" height="483" src="https://static.oschina.net/uploads/space/2017/0324/171131_dKcx_2945455.gif" width="594"></p> 
 <p>上图可看出 点击有抖动效果和不抖动效果。</p> 
@@ -90,3 +90,5 @@
     &lt;/com.zq.waveeffects.RippleView&gt;
 &lt;/LinearLayout&gt;
 </code></pre> 
+<p>自定义的RippleView代码比较多，直接下载源码即可；</p> 
+<span id="OSC_h1_1"></span>
